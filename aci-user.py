@@ -63,7 +63,7 @@ if __name__ == "__main__":
         user = sys.argv[2]
     
     admin_user = 'admin'
-    admin_password = 'Adm!n123!'
+    admin_password = 'admin_password'
     
     url_base = 'https://10.10.20.12/'
     s = login(url_base)
