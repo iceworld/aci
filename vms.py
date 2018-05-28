@@ -113,7 +113,7 @@ if __name__ == "__main__":
     action = sys.argv[1]
     sbxid = sys.argv[2]
 
-    si = connectvCenter('10.10.20.21','admin','Adm!n123!')    
+    si = connectvCenter('10.10.20.21','admin','admin_password')    
     VMs = getVMs(si, sbxid)
     if action == 'poweron':
         powerOnAll(si, VMs)
