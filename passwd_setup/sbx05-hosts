@@ -1,0 +1,12 @@
+[cluster]
+[cluster:children]
+devbox
+kube
+
+[devbox]
+172.20.0.120
+
+[kube]
+172.20.0.121
+172.20.0.122
+172.20.0.123

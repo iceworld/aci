@@ -1,0 +1,5 @@
+- name: Reset passwords among hosts
+  hosts: cluster
+  tasks:
+   - name: Change developer password
+     user: name=developer update_password=always password={{password_hash}}
